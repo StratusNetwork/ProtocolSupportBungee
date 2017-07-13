@@ -9,3 +9,7 @@ libs/
 *.classpath
 *.prefs
 /.apt_generated/
+
+# IntelliJ IDEA
+.idea
+*.iml

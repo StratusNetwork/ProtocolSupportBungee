@@ -7,7 +7,7 @@ public class ReflConstants {
 	private static Object initialHandlerFinishedState;
 	public static Object getInitialHandlerFinishedState() throws ClassNotFoundException {
 		if (initialHandlerFinishedState == null) {
-			initialHandlerFinishedState = Class.forName(InitialHandler.class.getName()+"$State").getEnumConstants()[5];
+			initialHandlerFinishedState = Class.forName(InitialHandler.class.getName()+"$State").getEnumConstants()[4];
 		}
 		return initialHandlerFinishedState;
 	}
